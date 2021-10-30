@@ -23,7 +23,7 @@ public class AdapterRecyclerView extends RecyclerView.Adapter<AdapterRecyclerVie
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             textHead = itemView.findViewById(R.id.text_title);
-            textSubhead = itemView.findViewById(R.id.text_substitle);
+            textSubhead = itemView.findViewById(R.id.text_subtitle);
             imageIcon = itemView.findViewById(R.id.imageList);
         }
     }
